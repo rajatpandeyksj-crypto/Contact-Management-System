@@ -1,22 +1,8 @@
-#ifndef FILEMANAGER_H
-#define FILEMANAGER_H
+#ifndef FILE_MANAGER_H
+#define FILE_MANAGER_H
 
-#include "Contact.h"
-
-// Function Declarations
-
-void addContact();
-
-void displayContacts();
-
-void searchContact();
-
-void updateContact();
-
-void deleteContact();
-
+// Declarations for disk reading/writing operations
 void saveContacts();
-
 void loadContacts();
 
 #endif
